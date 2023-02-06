@@ -1,0 +1,108 @@
+// Intro PART Start ///////======= /// ====== ///// ==== ///////
+
+#intro_part {
+    padding: 10px 0 40px;
+    // background: rgba(253, 245, 230, 0.4);
+    background: #FFFDD0;
+
+    .container {
+        .intro_left {
+            margin-top: 195px;
+
+
+            h4 {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22.68px;
+                line-height: 34px;
+                color: #EDA415;
+            }
+
+            h1 {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60.68px;
+                margin-top: 8px;
+                color: #232323;
+            }
+
+            p {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18.68px;
+                line-height: 34px;
+                color: #003F62;
+                margin-top: 15px;
+            }
+
+
+            .link {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #EDA415;
+                transition: all linear .3s;
+                margin-top: 40px;
+
+                &:hover {
+                    color: #252C6D;
+                }
+
+            }
+
+            .link--arrowed {
+                display: inline-block;
+                height: 2rem;
+                line-height: 2rem;
+            }
+
+            .link--arrowed .arrow-icon {
+                position: relative;
+                top: -1px;
+                transition: transform 0.3s ease;
+                vertical-align: middle;
+            }
+
+            .link--arrowed .arrow-icon--circle {
+                transition: stroke-dashoffset 0.3s ease;
+                stroke-dasharray: 95;
+                stroke-dashoffset: 95;
+            }
+
+            .link--arrowed:hover .arrow-icon {
+                transform: translate3d(5px, 0, 0);
+            }
+
+            .link--arrowed:hover .arrow-icon--circle {
+                stroke-dashoffset: 0;
+            }
+        }
+
+
+        .intro_right {
+            .profile_picture {
+                margin-top: 100px;
+                // text-align: center;
+
+                width: 480px;
+
+
+                img {
+                    height: 480px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+// Intro PART End ///////======= /// ====== ///// ==== ///////

@@ -1,0 +1,146 @@
+// Faq PART Start ///////======= /// ====== ///// ==== ///////
+#faq{
+    padding-bottom: 70px;
+
+    .container{
+
+        .head {
+            h3 {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 35.68px;
+                line-height: 34px;
+                color: #232323;
+                text-align: center;
+
+                span{
+                    color: #EDA415;
+                }
+            }
+
+            p {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22.68px;
+                line-height: 34px;
+                color: #232323;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+
+        .faq_left{
+            text-align: center;
+            margin-top: 107px;
+
+            ul{
+                li{
+                    i{
+                        font-size: 350px;
+                        color: #ffeb2a;
+                        
+                    }
+                }
+            }
+        }
+
+        .faq_part{
+            margin-top: 50px;
+        }
+
+
+        .faq_category {
+            padding: 8px 0;
+            background: #FFFFFF;
+            -webkit-box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.04);
+            box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.04);
+            border-radius: 20px;
+            margin-top: 10px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+
+            a{
+                padding: 10px 0;
+                display: block;
+                position: relative;
+                margin-left: 20px;
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 24px;
+                color: #232323;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 10PX;
+                    height: 2PX;
+                    background: #787878;
+                    transition: all linear.3s;
+
+                }
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    right: 14px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 2PX;
+                    height: 10PX;
+                    background: #787878;
+                    transition: all linear.3s;
+                    opacity: 0;
+                }
+
+                &.collapsed {
+                    &::after {
+                        transform: rotate(90deg);
+                        
+
+                    }
+
+                    &::before {
+                        transform: rotate(90deg);
+                        opacity: 1;
+                        top: 40%;
+                    }
+
+                   
+
+                }
+
+                
+            }
+
+            &.collapsed{
+                a{
+                    color: #000;
+                }
+            }
+
+            .faq_content {
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 26px;
+                    color: #787878;
+                    margin-left: 20px;
+                    margin-top: 3px;
+
+                }
+            }
+        }
+    }
+}
+// Faq PART End ///////======= /// ====== ///// ==== ///////

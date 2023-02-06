@@ -1,0 +1,64 @@
+// Work range PART Start ///////======= /// ====== ///// ==== ///////
+
+#skills {
+    padding-bottom: 50px;
+
+    .container {
+        .head {
+            h3 {
+                font-family: 'Noto Serif', serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 35.68px;
+                line-height: 34px;
+                color: #232323;
+                text-align: center;
+
+                span{
+                    color: #EDA415;
+                }
+            }
+        }
+
+        .all_skills {
+            margin-top: 40px;
+            .skill_part {
+                margin: 10px 0;
+
+                .skill_progress {
+                    p {
+                        font-family: 'Noto Serif', serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 140%;
+                        color: #232323;
+
+                        span {
+                            font-family: 'Noto Serif', serif;
+                            float: right;
+                            font-size: 20px;
+                            color: #ACACAC;
+                            font-weight: 700;
+                        }
+
+                    }
+                }
+
+                .progress {
+                    display: flex;
+                    height: 7px;
+                    overflow: hidden;
+                    font-size: .75rem;
+                    background-color: #e9ecef;
+                    border-radius: .25rem;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+
+    }
+}
+
+// Work range PART End ///////======= /// ====== ///// ==== ///////

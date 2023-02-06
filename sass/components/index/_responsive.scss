@@ -1,0 +1,1137 @@
+// Responsive PART Start ///////======= /// ====== ///// ==== ///////
+
+// Large device One Start =========================//
+@media (min-width: 1400px) {}
+
+// Large device One End =========================//
+
+
+// Large device Two Start =========================//
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    // services Part Start ======== //
+
+    #services .container .servises_info {
+        margin-top: 35px;
+    }
+
+    #services {
+        padding: 30px 0 30px;
+    }
+
+    // services Part End ======== //
+
+    // Skills Part Start ======== //
+
+    #range {
+        padding-bottom: 40px;
+    }
+
+    // Skills Part End ======== //
+
+    // Resume Part Start ======== //
+
+    #resume .container .experience .my_experience h4 {
+        font-size: 28.68px;
+    }
+
+    #resume .container .experience {
+        margin-top: 30px;
+    }
+
+    #resume .container .experience .education h4 {
+        font-size: 20px;
+    }
+
+    #resume .container .experience .my_experience {
+        margin-top: 10px;
+    }
+
+    #resume {
+        padding-bottom: 45px;
+    }
+
+}
+
+// Large device Two End =========================//
+
+
+// Large device three Start =========================//
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    // Menu Part start ======== //
+
+    .menu_main .container .menu_item ul li a {
+        font-size: 13px;
+    }
+
+    .menu_main .container .menu_item ul li {
+        margin: 0 2px;
+    }
+
+    // Menu Part End ======== //
+
+    // Intro Part Start ======== //
+
+    #intro_part .container .intro_right .profile_picture {
+        margin-top: 100px;
+        width: 467px;
+    }
+
+    #intro_part .container .intro_right .profile_picture img {
+        height: 467px;
+    }
+
+    #intro_part .container .intro_left h1 {
+        font-size: 50.68px;
+    }
+
+    #intro_part .container .intro_left {
+        margin-top: 180px;
+    }
+
+    // Intro Part End ======== //
+
+    // About Part Start ======== //
+
+    #about .container .about_left p {
+        font-size: 14.68px;
+        line-height: 25px;
+    }
+
+    #about .container .about_middle {
+        margin-top: 107px;
+    }
+
+    // About Part End ======== //
+
+    // Service Part Start ======== //
+
+    #services .container .head p {
+        font-size: 28.68px;
+    }
+
+    #services .container .servises_info {
+        margin-top: 38px;
+    }
+
+    #services .container .servises_info ul li i {
+        margin-right: 12px;
+        font-size: 30px;
+    }
+
+    #services .container .servises_info ul li {
+        font-size: 21.68px;
+        margin: 6px 0;
+    }
+
+    #services .container .servises_info ul li span {
+        font-size: 15.68px;
+        margin-top: 20px;
+    }
+
+    #services {
+        padding: 0px 0 30px;
+    }
+
+    // Service Part End ======== //
+
+    // Skills Part Start ======== //
+
+    #range .container .all_skills {
+        margin-top: 50px;
+    }
+
+    #range {
+        padding-bottom: 15px;
+    }
+
+    // Skills Part End ======== //
+
+
+    // Resume Part End ======== //
+
+    #resume .container .experience .my_experience h4 {
+        font-size: 23.68px;
+    }
+
+    #resume .container .experience .my_experience {
+        margin-top: 10px;
+    }
+
+    #resume .container .experience .education h4 {
+        font-size: 18px;
+    }
+
+    #resume .container .experience .my_experience p {
+        font-size: 14.68px;
+    }
+
+    #resume .container .submit {
+        margin-top: 40px;
+    }
+
+    #resume {
+        padding-bottom: 42px;
+    }
+
+    // Resume Part End ======== //
+
+    // Interest Part Start ======== //
+
+    #interest_part .interest_item .container .interest_content h2 {
+        font-size: 35.68px;
+    }
+
+    #interest_part {
+        padding-bottom: 34px;
+    }
+
+    // Interest Part End ======== //
+
+    // Faq Part Start ======== //
+
+    #faq {
+        padding-bottom: 40px;
+    }
+
+    // Faq Part End ======== //
+
+    // Client Part Start ======== //
+
+    #client_part .container .head {
+        margin-left: 0;
+    }
+
+    #client_part .container .client_chart {
+        margin-top: 35px;
+    }
+
+    // Client Part End ======== //
+
+    // Contact Part Start ======== //
+
+    #contact_part .container .client_right .all_send_point .submit ul li {
+        margin: 0 0;
+    }
+
+    #contact_part .container .client_left h3 {
+        font-size: 28.68px;
+    }
+
+    #contact_part .container .client_left p {
+        font-size: 21.68px;
+    }
+
+    #contact_part .container .client_right h3 {
+        font-size: 28.68px;
+    }
+
+    // Contact Part End ======== //
+
+}
+
+// Large device three End =========================//
+
+
+// Medioum device Start =========================//
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    // Menu Part start ======== //
+
+    .menu_main {
+        top: 0;
+    }
+
+    .menu_item {
+        background: #FFFDD0;
+        margin-top: 10px;
+    }
+
+    .menu_main .container>a {
+        color: #232323;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Noto Serif', serif;
+        position: relative;
+    }
+
+    .menu_main button i {
+        color: #EDA415;
+    }
+
+    .menu_main .container>a {
+        font-size: 18px;
+    }
+
+    .menu_main .container>a::before {
+        width: 75px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    // Menu Part End ======== //
+
+    // Intro Part Start ======== //
+
+    #intro_part .container .intro_left {
+        margin-top: 140px;
+    }
+
+    #intro_part .container .intro_left h1 {
+        font-weight: 600;
+        font-size: 40.68px;
+    }
+
+    #intro_part .container .intro_left .link {
+        margin-top: 15px;
+    }
+
+    #intro_part .container .intro_right .profile_picture {
+        margin-top: 75px;
+        width: 336px;
+    }
+
+    #intro_part .container .intro_right .profile_picture img {
+        height: 336px;
+    }
+
+    // Intro Part End ======== //
+
+    // About Part Start ======== //
+
+    #about .container .about_left p {
+        font-size: 13.68px;
+        line-height: 20px;
+    }
+
+    #about .container .about_middle h4 {
+        font-size: 50.68px;
+    }
+
+    #about .container .about_middle {
+        margin-top: 95px;
+    }
+
+    #about .container .about_right {
+        margin-top: 68px;
+    }
+
+    // About Part End ======== //
+
+    // Service Part Start ======== //
+
+    #services .container .servises_info ul li {
+        font-size: 19.68px;
+        margin: -4px 0;
+    }
+
+    #services .container .servises_info ul li i {
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    #services .container .servises_info ul li span {
+        font-size: 14.68px;
+        line-height: 24px;
+        margin-top: 13px;
+    }
+
+    #services .container .head p {
+        font-size: 26.68px;
+        margin-top: 10px;
+    }
+
+    #services .container .servises_info {
+        margin-top: 32px;
+    }
+
+    #services {
+        padding: 0px 0 45px;
+    }
+
+    // Service Part End ======== //
+
+    // Skills Part Start ======== //
+
+    #range .container .all_skills {
+        margin-top: 38px;
+    }
+
+    #range {
+        padding-bottom: 15px;
+    }
+
+    // Skills Part End ======== //
+
+    // Resume Part Start ======== //
+
+    #resume .container .experience .my_experience h4 {
+        font-size: 19.68px;
+    }
+
+    #resume .container .experience .my_experience {
+        margin-top: 5px;
+    }
+
+    #resume .container .experience .my_experience h6 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    #resume .container .experience .my_experience p {
+        font-size: 13.68px;
+        line-height: 24px;
+    }
+
+    #resume .container .experience .education h4 {
+        font-size: 13px;
+    }
+
+    #resume .container .submit {
+        margin-top: 35px;
+    }
+
+    #resume .container .experience {
+        margin-top: 23px;
+    }
+
+    #resume .container .head p {
+        font-size: 26.68px;
+        margin-top: 10px;
+    }
+
+    #resume {
+        padding-bottom: 38px;
+    }
+
+    // Resume Part End ======== //
+
+    // Interest Part Start ======== //
+
+    #interest_part .interest_item {
+        padding: 90px 0;
+    }
+
+    #interest_part {
+        padding-bottom: 35px;
+    }
+
+    // Interest Part End ======== //
+
+    // Faq Part Start ======== //
+
+
+    #faq .container .faq_left ul li i {
+        font-size: 300px;
+    }
+
+    #faq .container .faq_part {
+        margin-top: 30px;
+    }
+
+    #faq .container .faq_category a {
+        font-size: 12px;
+    }
+
+    #faq .container .faq_category .faq_content p {
+        font-size: 13px;
+        line-height: 18px;
+
+    }
+
+    #faq {
+        padding-bottom: 45px;
+    }
+
+    // Faq Part End ======== //
+
+    // Client Part Start ======== //
+
+    #client_part .container .head {
+        margin-left: 0;
+    }
+
+    #client_part .container .head p {
+        font-size: 26.68px;
+    }
+
+    #client_part .container .client_chart {
+        margin-top: 30px;
+    }
+
+    #client_part .container .client_chart {
+        padding: 30px 10px;
+    }
+
+    #client_part .container .client_chart .client_info p {
+        font-size: 13.68px;
+        line-height: 22px;
+    }
+
+    #client_part {
+        padding-bottom: 40px;
+    }
+
+    // Client Part End ======== //
+
+    // Contact Part Start ======== //
+
+    #contact_part .container .client_left h3 {
+        font-size: 25.68px;
+    }
+
+    #contact_part .container .client_left p {
+        font-size: 18.68px;
+        line-height: 28px;
+    }
+
+    #contact_part .container .client_left h4 {
+        font-size: 20.68px;
+        line-height: 34px;
+        margin-top: 17px;
+    }
+
+    #contact_part .container .client_right h3 {
+        font-size: 25.68px;
+    }
+
+    #contact_part .container .client_right .all_send_point .send_part_one input {
+        height: 40px;
+    }
+
+    #contact_part .container .client_right .all_send_point .send_part_two input {
+        height: 40px;
+    }
+
+    #contact_part .container .client_right .all_send_point textarea {
+        height: 62px;
+    }
+
+    #contact_part .container .client_right .all_send_point .submit ul li {
+        margin: 0px 0px;
+    }
+
+    // Contact Part End ======== //
+
+}
+
+// Medioum device End =========================//
+
+
+// Small device one Start =========================//
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    // Menu Part start ======== //
+
+    .menu_main {
+        top: 0;
+    }
+
+    .menu_item {
+        background: #FFFDD0;
+        margin-top: 10px;
+    }
+
+    .menu_main .container>a {
+        color: #232323;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Noto Serif', serif;
+        position: relative;
+    }
+
+    .menu_main button i {
+        color: #EDA415;
+    }
+
+    .menu_main .container>a {
+        font-size: 18px;
+    }
+
+    .menu_main .container>a::before {
+        width: 75px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    // Menu Part End ======== //
+
+    // Intro Part Start ======== //
+
+    #intro_part .container .intro_left h1 {
+        font-size: 26.68px;
+    }
+
+    #intro_part .container .intro_left {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    #intro_part .container .intro_right .profile_picture {
+        margin-top: 60px;
+        width: 290px;
+    }
+
+    #intro_part .container .intro_right .profile_picture img {
+        height: 290px;
+    }
+
+    #intro_part .container .intro_left .link {
+        margin-top: 15px;
+    }
+
+    // Intro Part End ======== //
+
+    // About Part Start ======== //
+
+    #about .container .about_middle {
+        margin-top: 40px;
+    }
+
+    #about .container .about_right {
+        margin-top: 35px;
+    }
+
+    #about {
+        padding: 50px 0 40px;
+    }
+
+    // About Part End ======== //
+
+    // Service Part Start ======== //
+
+    #services {
+        padding: 0px 0 40px;
+    }
+
+    #services .container .head {
+        margin-left: 0px;
+    }
+
+    #services .container .head p {
+        font-size: 26.68px;
+        margin-top: 10px;
+    }
+
+    #services .container .servises_info {
+        margin-top: 35px;
+    }
+
+    #services .container .servises_info ul li i {
+        color: #ffeb2a;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    #services .container .servises_info ul li {
+        font-size: 22.68px;
+        margin: 0px 0;
+    }
+
+    // Service Part End ======== //
+
+    // Skills Part Start ======== //
+
+    #range .container .all_skills {
+        margin-top: 30px;
+    }
+
+    #range {
+        padding-bottom: 15px;
+    }
+
+    // Skills Part End ======== //
+
+    // Resume Part Start ======== //
+
+    #resume .container .head {
+        margin-left: 0px;
+    }
+
+    #resume .container .head p {
+        font-size: 20.68px;
+    }
+
+    #resume .container .experience {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #resume .container .experience .my_experience {
+        margin-top: 12px;
+    }
+
+    #resume .container .experience .my_experience h4 {
+        font-size: 20.68px;
+    }
+
+    #resume .container .experience .my_experience h6 {
+        margin-top: 0px;
+        font-size: 15.68px;
+    }
+
+    #resume .container .experience .education h4 {
+        font-size: 17px;
+    }
+
+    #resume .container .submit {
+        margin-top: 25px;
+    }
+
+    #resume {
+        padding-bottom: 38px;
+    }
+
+    // Resume Part End ======== //
+
+    // Interest Part Start ======== //
+
+    #interest_part .interest_item {
+        padding: 80px 0;
+    }
+
+    #interest_part {
+        padding-bottom: 40px;
+    }
+
+    // Interest Part End ======== //
+
+    // Faq Part Start ======== //
+
+    #faq .container .head {
+        margin-left: 0px;
+    }
+
+    #faq .container .head p {
+        font-size: 27.68px;
+    }
+
+    #faq .container .faq_left ul li i {
+        font-size: 200px;
+    }
+
+    #faq .container .faq_left {
+        margin-top: 35px;
+    }
+
+    #faq .container .faq_part {
+        margin-top: 25px;
+    }
+
+    #faq .container .faq_category a {
+        font-size: 15px;
+    }
+
+    #faq .container .faq_category .faq_content p {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    #faq {
+        padding-bottom: 45px;
+    }
+
+    // Faq Part End ======== //
+
+    // Client Part Start ======== //
+
+    #client_part .container .head {
+        margin-left: 0;
+    }
+
+    #client_part .container .head p {
+        font-size: 25.68px;
+    }
+
+    #client_part .container .client_chart {
+        margin-top: 25px;
+    }
+
+    #client_part {
+        padding-bottom: 35px;
+    }
+
+    // Client Part End ======== //
+
+    // Contact Part Start ======== //
+    #contact_part .container .client_left h3 {
+        font-size: 25.68px;
+    }
+
+    #contact_part .container .client_left p {
+        font-size: 20.68px;
+        line-height: 26px;
+        margin-top: 9px;
+    }
+
+    #contact_part .container .client_left h4 {
+        font-size: 18.68px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    #contact_part .container .client_left .social {
+        margin-top: 21px;
+    }
+
+    #contact_part .container .client_right {
+        margin-top: 15px;
+    }
+
+    #contact_part .container .client_right h3 {
+        font-size: 20.68px;
+    }
+
+    #contact_part .container .client_left .social ul li i {
+        font-size: 20px;
+    }
+
+    #contact_part .container .client_right .all_send_point {
+        margin-top: 10px;
+    }
+
+    #contact_part .container .client_right .all_send_point .submit {
+        margin-top: 15px;
+    }
+
+    #contact_part .container .client_right .all_send_point .submit ul li {
+        margin: 0 0;
+    }
+    // Contact Part End ======== //
+
+}
+
+// Small device one End =========================//
+
+
+// Small device Two Start =========================//
+@media (max-width: 575.98px) {
+
+    // Menu Part start ======== //
+    .menu_main {
+        top: 0;
+    }
+
+    .menu_item {
+        background: #FFFDD0;
+        margin-top: 10px;
+    }
+
+    .menu_main .container>a {
+        color: #232323;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Noto Serif', serif;
+        position: relative;
+    }
+
+    .menu_main button i {
+        color: #EDA415;
+    }
+
+    .menu_main .container>a {
+        font-size: 18px;
+    }
+
+    .menu_main .container>a::before {
+        width: 75px;
+    }
+
+    // Menu Part End ======== //
+
+    // Intro Part Start ======== //
+
+    #intro_part .container .intro_left {
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    #intro_part .container .intro_left h1 {
+        font-size: 31.68px;
+        margin-top: 8px;
+    }
+
+    #intro_part .container .intro_left .link {
+        margin-top: 15px;
+    }
+
+    #intro_part .container .intro_right .profile_picture {
+        margin-top: 20px;
+        width: 295px;
+    }
+
+    #intro_part .container .intro_right .profile_picture img {
+        height: 295px;
+    }
+
+    // Intro Part End ======== //
+
+    // About Part Start ======== //
+
+    #about .container .about_left {
+        margin-top: 33px;
+        text-align: center;
+    }
+
+    #about .container .about_left h4::after {
+        left: 21%;
+    }
+
+    #about .container .about_middle {
+        margin-top: 20px;
+    }
+
+    #about .container .about_right {
+        margin-top: 25px;
+    }
+
+    #about {
+        padding: 50px 0 0;
+    }
+
+    // About Part End ======== //
+
+    // Service Part Start ======== //
+
+    #services {
+        padding: 0px 0 40px;
+    }
+
+    #services .container .head {
+        margin-left: 0px;
+    }
+
+    #services .container .head p {
+        font-size: 18.68px;
+        margin-top: 10px;
+    }
+
+    #services .container .servises_info {
+        margin-top: 35px;
+    }
+
+    #services .container .servises_info ul li i {
+        color: #ffeb2a;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    #services .container .servises_info ul li {
+        font-size: 22.68px;
+        margin: 0px 0;
+    }
+
+    // Service Part End ======== //
+
+    // Skills Part Start ======== //
+
+    #range .container .all_skills {
+        margin-top: 30px;
+    }
+
+    #range .container .all_skills .skill_part .skill_progress p {
+        font-size: 13px;
+    }
+
+    #range .container .all_skills .skill_part .skill_progress p span {
+        font-size: 17px;
+    }
+
+    #range {
+        padding-bottom: 15px;
+    }
+
+
+    // Skills Part End ======== //
+
+    // Resume Part Start ======== //
+
+    #resume .container .head {
+        margin-left: 0px;
+    }
+
+    #resume .container .head p {
+        font-size: 18.68px;
+    }
+
+    #resume .container .experience {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #resume .container .experience .my_experience {
+        margin-top: 12px;
+    }
+
+    #resume .container .experience .my_experience h4 {
+        font-size: 17.68px;
+    }
+
+    #resume .container .experience .my_experience h6 {
+        margin-top: 4px;
+        font-size: 14.68px;
+    }
+
+    #resume .container .experience .education h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #resume .container .submit {
+        margin-top: 25px;
+    }
+
+    #resume {
+        padding-bottom: 40px;
+    }
+
+    // Resume Part End ======== //
+
+    // Interest Part Start ======== //
+
+    #interest_part .interest_item {
+        padding: 100px 0;
+    }
+
+    #interest_part .interest_item .container .interest_content h2 {
+        font-size: 28.68px;
+    }
+
+    #interest_part {
+        padding-bottom: 40px;
+    }
+
+    // Interest Part End ======== //
+
+    // Faq Part Start ======== //
+
+    #faq .container .head {
+        margin-left: 0px;
+    }
+
+    #faq .container .head h3::before {
+        left: 35%;
+    }
+
+    #faq .container .head p {
+        font-size: 25.68px;
+    }
+
+    #faq .container .faq_left ul li i {
+        font-size: 150px;
+    }
+
+    #faq .container .faq_left {
+        margin-top: 35px;
+    }
+
+    #faq .container .faq_part {
+        margin-top: 25px;
+    }
+
+    #faq .container .faq_category a {
+        font-size: 10px;
+    }
+
+    #faq .container .faq_category .faq_content p {
+        font-size: 12px;
+    }
+
+    #faq {
+        padding-bottom: 45px;
+    }
+
+    // Faq Part End ======== //
+
+    // Client Part Start ======== //
+
+    #client_part .container .head {
+        margin-left: 0;
+    }
+
+    #client_part .container .head p {
+        font-size: 18.68px;
+    }
+
+    #client_part .container .client_chart {
+        margin-top: 25px;
+    }
+
+    #client_part {
+        padding-bottom: 35px;
+    }
+
+    // Client Part End ======== //
+
+    // Contact Part Start ======== //
+
+
+    #contact_part .container .client_left h3 {
+        font-size: 25.68px;
+    }
+
+    #contact_part .container .client_left p {
+        font-size: 16.68px;
+        line-height: 26px;
+        margin-top: 9px;
+    }
+
+    #contact_part .container .client_left h4 {
+        font-size: 18.68px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    #contact_part .container .client_left .social {
+        margin-top: 21px;
+    }
+
+    #contact_part .container .client_right {
+        margin-top: 15px;
+    }
+
+    #contact_part .container .client_right h3 {
+        font-size: 20.68px;
+    }
+
+    #contact_part .container .client_left .social ul li i {
+        font-size: 20px;
+    }
+
+    #contact_part .container .client_right .all_send_point {
+        margin-top: 10px;
+    }
+
+    #contact_part .container .client_right .all_send_point .submit {
+        margin-top: 15px;
+    }
+
+    #contact_part .container .client_right .all_send_point .submit ul li {
+        margin: 0 0;
+    }
+
+    // Contact Part End ======== //
+
+    // Footer Part Start ======== //
+
+    #footer_part .container .copyright h3 {
+        font-size: 14.68px;
+    }
+
+    #footer_part {
+        padding: 10px 0;
+    }
+
+    // Footer Part End ======== //
+
+}
+
+// Small device Two End =========================//
+
+
+// Responsive PART End ///////======= /// ====== ///// ==== ///////

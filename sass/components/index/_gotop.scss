@@ -1,0 +1,73 @@
+// Gotop Start ///////======= /// ====== ///// ==== ///////
+#gotop_part {
+
+    .gotop_btn {
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        background: #808080;
+        top: -80px;
+        right: 30px;
+        z-index: 999;
+        text-align: center;
+        line-height: 30px;
+        color: #323232;
+        font-size: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all linear .3s;
+        opacity: 0;
+
+        &:hover {
+            color: #323232;
+            background-color: #EDA415;
+
+            &::before {
+                border-color: #EDA415;
+            }
+
+            &::after {
+                border-color: #EDA415;
+            }
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            border: 1px solid #323232;
+            animation: waves 2s linear infinite;
+            animation-delay: 1s;
+        }
+
+        &::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            border: 1px solid #323232;
+            animation: waves 2s linear infinite;
+        }
+
+    }
+
+    .active {
+        top: calc(100% - 100px);
+        opacity: 1;
+    }
+
+    @keyframes waves {
+        to {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+}
+// Gotop End ///////======= /// ====== ///// ==== ///////
